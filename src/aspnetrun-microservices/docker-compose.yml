@@ -13,6 +13,9 @@ services:
   orderdb:
     image: docker pull mcr.microsoft.com/mssql/server
 
+  rabbitmq:
+    image: docker pull rabbitmq:3-management-alpine
+
   pgadmin:
     image: dpage/pgadmin4
 
